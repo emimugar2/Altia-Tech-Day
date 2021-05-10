@@ -1,0 +1,18 @@
+branch-defaults:
+  aws-deployment:
+    environment: %%%APPNAME%%%
+    group_suffix: null
+global:
+  application_name: %%%APPENV%%%
+  branch: null
+  default_ec2_keyname: %%%KEYNAME%%%
+  default_platform: %%%PLATFORM%%%
+  default_region: %%%REGION%%%
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: %%%APPTYPE%%%
